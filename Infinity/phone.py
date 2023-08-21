@@ -1,9 +1,9 @@
 
-# from Infinity.exceptions import PhoneMustBeNumber
-# from Infinity.sanytize import sanitize_phone_number
+from Infinity.exceptions import PhoneMustBeNumber
+from Infinity.sanytize import sanitize_phone_number
 
-from exceptions import PhoneMustBeNumber
-from sanytize import sanitize_phone_number
+# from exceptions import PhoneMustBeNumber
+# from sanytize import sanitize_phone_number
 
 class Phone:
     def __init__(self, value):

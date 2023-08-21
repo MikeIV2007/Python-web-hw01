@@ -1,8 +1,8 @@
 from collections import UserDict
 import pickle
 
-#from Infinity.record import Record
-from record import Record
+from Infinity.record import Record
+#from record import Record
 
 
 class AddressBook(UserDict):

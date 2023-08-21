@@ -1,7 +1,7 @@
 from datetime import datetime, date
 
-#from Infinity.exceptions import BirthdayException
-from exceptions import BirthdayException
+from Infinity.exceptions import BirthdayException
+#from exceptions import BirthdayException
 
 class Birthday:
     def __init__(self, value):
