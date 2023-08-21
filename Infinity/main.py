@@ -490,7 +490,7 @@ def main():
 
         result = command(user_data)
 
-        terminal_handler.print_result(result)
+        print (terminal_handler.print_result(result))
 
         if command == exit_command:
             break
